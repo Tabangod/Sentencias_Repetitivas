@@ -1,0 +1,12 @@
+Algoritmo Ejercicio4
+	//Elabora un algoritmo que imprima todos los numeros naturales que hay desde la unidad hasta un número que introducimos por teclado.
+		Definir n, numeroFinal Como Entero
+		
+		Escribir "Ingrese un número"
+		Leer numeroFinal
+		numero <- 1
+		Mientras n <= numeroFinal Hacer
+			Escribir n
+			n <- n + 1
+		FinMientras
+FinProceso
