@@ -1,0 +1,26 @@
+Algoritmo Ejercicio2
+	//Algoritmo que pida números hasta que se introduzca un cero. Debe imprimir la suma y la media de todos los números introducidos.
+	Definir n, suma, contador, media Como Real
+	
+	suma <- 0
+	contador <- 0
+	
+	Escribir "Ingrese un número (0 para terminar):"
+	Leer n
+	
+	Mientras n <> 0 Hacer
+		suma <- suma + n
+		contador <- contador + 1
+		Escribir "Ingrese otro número (0 para terminar):"
+		Leer n
+	FinMientras
+	
+	Si contador > 0 Entonces
+		media <- suma / contador
+		Escribir "La suma de los números es: ", suma
+		Escribir "La media de los números es: ", media
+	SiNo
+		Escribir "No se ingresaron números válidos."
+FinSi
+
+FinAlgoritmo
