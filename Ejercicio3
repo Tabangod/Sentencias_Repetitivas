@@ -1,4 +1,5 @@
 Algoritmo Ejercicio3
+//Diseña un algoritmo que permita leer dos números enteros positivos y luego determine el mínimo común múltiplo de dichos números.
 		Definir n1, n2, producto, residuo, mcd, mcm Como Entero
 		Repetir
 			Escribir "Ingrese el primer numero: "
