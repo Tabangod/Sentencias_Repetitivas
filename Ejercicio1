@@ -1,0 +1,21 @@
+Algoritmo Ejercicio1
+	//Escribir un programa que imprima todos los números pares entre dos números que se le pidan al usuario.
+	Definir num1, num2, i Como Entero
+	
+	Escribir "Ingrese el primer número:"
+	Leer num1
+	
+	Escribir "Ingrese el segundo número:"
+	Leer num2
+	
+	Si num1 > num2 Entonces
+		Escribir "El primer número debe ser menor que el segundo."
+	SiNo
+		Para i <- num1 Hasta num2 Hacer
+			Si i MOD 2 = 0 Entonces
+				Escribir i
+			FinSi
+		FinPara
+	FinSi
+FinAlgoritmo
+	
